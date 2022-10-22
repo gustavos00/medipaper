@@ -2,7 +2,7 @@ import * as S from './styles';
 
 interface InfoElementProps {
   label: string;
-  numberValue: number
+  numberValue: number;
 }
 
 export function InfoElement({ label, numberValue }: InfoElementProps) {

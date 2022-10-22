@@ -17,6 +17,7 @@ export const Container = styled.div`
     }
 
     p {
+        text-align: center;
         color: #9FA2B4;
         font-size: 18px;
         font-weight: bold;

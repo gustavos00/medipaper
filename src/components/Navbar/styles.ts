@@ -12,17 +12,17 @@ export const UserContainer = styled.div`
     align-items: center;
 
     p {
+        color: #252733;
         font-size: 14px;
         font-weight: 600;
     }
 `;
 
-export const Icon = styled.div`
+export const Icon = styled.img`
     width: 46px;
     height: 46px;
     margin-left: 13px;
 
     border-radius: 100%;
-    background-color: blue;
 `;
 

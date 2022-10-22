@@ -10,7 +10,8 @@ export function Sidebar() {
   return (
     <S.Container sidebarIsOpen onClick={() => setSidebarIsOpen(!sidebarIsOpen)}>
       <S.BrandContainer>
-
+        <S.Icon />
+        <h1>Medipaper</h1>
       </S.BrandContainer>
       <SidebarElement text={'Dashboard'} icon={''}/>
       <SidebarElement text={'Consultas'} icon={''}/>

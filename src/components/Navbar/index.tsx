@@ -5,8 +5,8 @@ export function Navbar() {
     <S.Container>
       <h1>Overview</h1>
       <S.UserContainer>
-        <p>José Manuel</p>
-        <S.Icon />
+        <p>Duarte José Gravilha</p>
+        <S.Icon src="https://thispersondoesnotexist.com/image" />
       </S.UserContainer>
     </S.Container>
   );

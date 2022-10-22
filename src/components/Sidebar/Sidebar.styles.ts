@@ -19,7 +19,14 @@ export const BrandContainer = styled.div`
     height: 128px;
     width: 100%;
 
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        text-transform: uppercase;
+        color: #A4A6B3;
+    }
 `;
 
 export const SidebarElementSplitter = styled.div`
@@ -28,5 +35,13 @@ export const SidebarElementSplitter = styled.div`
     margin: 16px 0;
 
     background-color: #DFE0EB;
+`;
+
+export const Icon = styled.div`
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+
+    background-color: blue;
 `;
 
