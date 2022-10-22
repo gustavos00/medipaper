@@ -11,3 +11,15 @@ export const Content = styled.div`
 
     background-color: #F7F8FC ;
 `;
+
+export const InfoElementsContainer = styled.div`
+    height: 150px;
+    margin-top: 58px;
+
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+`;
+
+
+

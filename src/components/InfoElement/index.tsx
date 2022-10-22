@@ -1,6 +1,4 @@
-import { ReactNode } from 'react';
-
-import { Container } from './styles';
+import * as S from './styles';
 
 interface InfoElementProps {
   label: string;
@@ -9,8 +7,9 @@ interface InfoElementProps {
 
 export function InfoElement({ label, numberValue }: InfoElementProps) {
   return (
-    <Container>
-      <h1>InfoElement</h1>
-    </Container>
+    <S.Container>
+      <p>{label}</p>
+      <h1>{numberValue}</h1>
+    </S.Container>
   );
 }
